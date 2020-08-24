@@ -1,0 +1,6 @@
+framework module ISIDReaderPreviewSDK {
+  umbrella header "ISIDReaderPreviewSDK.h"
+
+  export *
+  module * { export * }
+}

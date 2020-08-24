@@ -1,0 +1,34 @@
+{
+    "name": "XYScanPlugin",
+    "id": "XYScanPlugin",
+    "version": "1.0.0",
+    "description": "扫描插件",
+    "_dp_type": "nativeplugin",
+    "_dp_nativeplugin": {
+        "ios": {
+            "plugins": [{
+                "type": "module",
+                "name": "XYScanPlugin",
+                "class": "ScanModule"
+            }],
+            "frameworks": [
+                "libc++.tbd",
+                "AVFoundation.framework",
+                "ISDrivingLicensePreviewSDK.framework",
+                "ISOpenSDKFoundation.framework",
+                "ISVehicleLicensePreviewSDK.framework",
+                "ISIDReaderPreviewSDK.framework",
+                "ISBankCard.framework"
+            ],
+            "integrateType": "framework",
+            "resources": [
+                "Resources.bundle"
+            ],
+            "privacies": [
+                "NSCameraUsageDescription",
+                "NSPhotoLibraryUsageDescription"
+            ],
+            "deploymentTarget": "9.0"
+        }
+    }
+}
