@@ -1,0 +1,6 @@
+framework module ISVehicleLicensePreviewSDK {
+  umbrella header "ISVehicleLicensePreviewSDK.h"
+
+  export *
+  module * { export * }
+}
